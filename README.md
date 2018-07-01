@@ -2,9 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+It includes SSR and Material Design.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Production server with SSR (Server Side Rendering)
+
+Run `npm run build:ssr` for building the production server. 
+
+Run `npm run serve:ssr` to run the previously built server. Navigate to `http://localhost:4000/`.
 
 ## Code scaffolding
 

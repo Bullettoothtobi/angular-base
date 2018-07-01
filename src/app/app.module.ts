@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 
 import { MatButtonModule } from '@angular/material';
 import { PostComponent } from './post/post.component';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostComponent
+    PostComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'blog'}),
